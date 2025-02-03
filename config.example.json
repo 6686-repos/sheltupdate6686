@@ -1,6 +1,6 @@
 {
 	"port": 8081,
-	"host": "https://shelter.6686.us.kg",
+	"host": "https://your.url",
 	"stats": true,
 	"setupIntervalHours": 3,
 	"proxy": {
