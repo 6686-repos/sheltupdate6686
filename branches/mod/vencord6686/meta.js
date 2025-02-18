@@ -3,8 +3,8 @@ import { rm } from "fs/promises";
 import { join } from "path";
 import { Writable } from "stream";
 
-export const name = "Vencord";
-export const description = "Injects Vencord; This is not an officially supported Vencord install method";
+export const name = "Vencord6686";
+export const description = "Injects Vencord6686; This is the only officially supported Vencord6686 install method";
 export const incompatibilities = [];
 
 export async function setup(target, log) {
