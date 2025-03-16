@@ -14,7 +14,7 @@ export async function setup(target, log) {
 	for (const f of ["equicordDesktopMain.js", "equicordDesktopPreload.js", "renderer.js", "renderer.css"]) {
 		log(`Downloading ${f}...`);
 
-		const p = join(target, "equicord-desktop", f);
+		const p = join(target, "equicord6686-desktop", f);
 		await rm(p, { force: true });
 
 		const req = await fetch(releaseUrl + f);
