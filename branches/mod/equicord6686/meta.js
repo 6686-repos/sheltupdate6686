@@ -7,7 +7,7 @@ export const name = "Equicord6686";
 export const description = "Injects Equicord6686 (Equicord Fork); This is the only officially supported Equicord6686 install method";
 
 export async function setup(target, log) {
-	const releaseUrl = "https://github.com/6686-repos/Equicord/releases/download/latest/";
+	const releaseUrl = "https://github.com/6686-repos/Equicord6686/releases/download/latest/";
 	
 	mkdirSync(join(target, "equicord6686-desktop"), { recursive: true });
 
