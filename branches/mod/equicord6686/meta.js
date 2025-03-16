@@ -9,7 +9,7 @@ export const description = "Injects Equicord6686 (Equicord Fork); This is the on
 export async function setup(target, log) {
 	const releaseUrl = "https://github.com/6686-repos/Equicord/releases/download/latest/";
 	
-	mkdirSync(join(target, "equicord-desktop"), { recursive: true });
+	mkdirSync(join(target, "equicord6686-desktop"), { recursive: true });
 
 	for (const f of ["equicordDesktopMain.js", "equicordDesktopPreload.js", "renderer.js", "renderer.css"]) {
 		log(`Downloading ${f}...`);
