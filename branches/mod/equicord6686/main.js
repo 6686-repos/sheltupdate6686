@@ -1,1 +1,1 @@
-require("./equicord-desktop/equicordDesktopMain.js");
+require("./equicord6686-desktop/equicordDesktopMain.js");
