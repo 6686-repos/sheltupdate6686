@@ -38,8 +38,8 @@ export async function setup(target, log) {
     }
     
     // Copy repo to build directory for building
-    execSync(`xcopy "${repoDir}" "${buildDir}" /E /I /H /Y`, {
-        stdio: "inherit"
+    execSync(`xcopy "${repoDir}" "${buildDir}" /E /I /H /Y /Q`, {
+        stdio: "ignore"
     });
     
     try {
